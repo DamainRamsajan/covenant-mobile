@@ -1,0 +1,6 @@
+{
+  "ephemeral": true,
+  "expiry_minutes": 10,
+  "encryption": "AES256",
+  "signature_chain": true
+}

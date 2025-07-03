@@ -1,0 +1,12 @@
+workflow:
+  name: test_workflow
+  tasks:
+    - type: chunk
+      policy: default_policy
+    - type: compliance
+    - type: consent
+  approval:
+    zk_proof: required
+  skills:
+    - name: redact
+    - name: hashcheck
